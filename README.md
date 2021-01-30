@@ -9,6 +9,15 @@ Access the driver like usual through `component.driver_name`
 In this case it is `component.ic2_replicator` (NOTE:ic2_te_replicator is the default driver supplied by OC that doesn't support changing the patterns)
 
 ocic2replicator provides 7 functions to help you control the ic2:replicator.
+```lua
+function setPatternNamed(string tileName);
+function setPatternIndex(int index);
+function setMode(int mode);
+function getPatterns();
+function getCurrent();
+function getUUAmount();
+function getPatternIndex(string tileName);
+```
 
 NOTE: You cannot force an item to be replicated, it will only be replicated if the nearby pattern storage contains your item.
 
