@@ -1,4 +1,4 @@
-# ocic2replicator
+# ocrepdriver
 Adds an IC2 Replicator Driver for OpenComputers
 
 Huge thanks to https://github.com/raymondbh for making the original ocdriversplus because of them I didn't have to spend too long figuring this driver stuff out.
@@ -8,7 +8,7 @@ Usage:
 Access the driver like usual through `component.driver_name`
 In this case it is `component.ic2_replicator` (NOTE:ic2_te_replicator is the default driver supplied by OC that doesn't support changing the patterns)
 
-ocic2replicator provides 7 functions to help you control the ic2:replicator.
+ocrepdriver provides 7 functions to help you control the ic2:replicator.
 ```lua
 function setPatternNamed(string tileName);
 function setPatternIndex(int index);
