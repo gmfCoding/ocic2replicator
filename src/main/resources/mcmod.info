@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ocrepdriver",
+  "name": "OCRepdriver",
+  "description": "This mod adds some drivers to OpenComputers for IndustrialCraft 2",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["gmfcofing"],
+  "credits": "raymondbh for making ocdriversplus for which i used as an example to make this",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["after:OpenComputers"]
+}
+]
