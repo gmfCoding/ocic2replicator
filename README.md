@@ -1,5 +1,5 @@
 # ocic2replicator
-Adds a IC2 Replicator Driver for OpenComputers
+Adds an IC2 Replicator Driver for OpenComputers
 
 Huge thanks to https://github.com/raymondbh for making the original ocdriversplus because of them I didn't have to spend too long figuring this driver stuff out.
 
